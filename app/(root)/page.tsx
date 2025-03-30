@@ -1,16 +1,16 @@
-import React from 'react'
-// import {Section} from "lucide-react";
-import {Button} from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
+
+import { Button } from "@/components/ui/button";
+import InterviewCard from "@/components/InterviewCard";
+
 import { getCurrentUser } from "@/lib/actions/auth.action";
 import {
     getInterviewsByUserId,
     getLatestInterviews,
 } from "@/lib/actions/general.action";
-import InterviewCard from "@/components/InterviewCard";
 
-const Page = async () => {
+async function Home() {
     const user = await getCurrentUser();
 
     const [userInterviews, allInterview] = await Promise.all([
@@ -87,8 +87,8 @@ const Page = async () => {
                     )}
                 </div>
             </section>
-
         </>
-    )
+    );
 }
-export default Page
+
+export default Home;
