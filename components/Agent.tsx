@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 
 import { cn } from "@/lib/utils";
 import { vapi } from "@/lib/vapi.sdk";
-import { interviewer } from "@/constants";
+// import { interviewer } from "@/constants";
 import { createFeedback } from "@/lib/actions/general.action";
 
 enum CallStatus {
@@ -27,7 +27,7 @@ const Agent = ({
                    interviewId,
                    feedbackId,
                    type,
-                   questions,
+                   // questions,
                }: AgentProps) => {
     const router = useRouter();
     const [callStatus, setCallStatus] = useState<CallStatus>(CallStatus.INACTIVE);
@@ -114,36 +114,36 @@ const Agent = ({
         }
     }, [messages, callStatus, feedbackId, interviewId, router, type, userId]);
 
-    const handleCall = async () => {
-        setCallStatus(CallStatus.CONNECTING);
+    // const handleCall = async () => {
+    //     setCallStatus(CallStatus.CONNECTING);
+    //
+    //     if (type === "generate") {
+    //         await vapi.start(process.env.NEXT_PUBLIC_VAPI_WORKFLOW_ID!, {
+    //             variableValues: {
+    //                 username: userName,
+    //                 userid: userId,
+    //             },
+    //         });
+    //     } else {
+    //         let formattedQuestions = "";
+    //         if (questions) {
+    //             formattedQuestions = questions
+    //                 .map((question) => `- ${question}`)
+    //                 .join("\n");
+    //         }
+    //
+    //         await vapi.start(interviewer, {
+    //             variableValues: {
+    //                 questions: formattedQuestions,
+    //             },
+    //         });
+    //     }
+    // };
 
-        if (type === "generate") {
-            await vapi.start(process.env.NEXT_PUBLIC_VAPI_WORKFLOW_ID!, {
-                variableValues: {
-                    username: userName,
-                    userid: userId,
-                },
-            });
-        } else {
-            let formattedQuestions = "";
-            if (questions) {
-                formattedQuestions = questions
-                    .map((question) => `- ${question}`)
-                    .join("\n");
-            }
-
-            await vapi.start(interviewer, {
-                variableValues: {
-                    questions: formattedQuestions,
-                },
-            });
-        }
-    };
-
-    const handleDisconnect = () => {
-        setCallStatus(CallStatus.FINISHED);
-        vapi.stop();
-    };
+    // const handleDisconnect = () => {
+    //     setCallStatus(CallStatus.FINISHED);
+    //     vapi.stop();
+    // };
 
     return (
         <>
@@ -196,7 +196,7 @@ const Agent = ({
 
             <div className="w-full flex justify-center">
                 {callStatus !== "ACTIVE" ? (
-                    <button className="relative btn-call" onClick={() => handleCall()}>
+                    <button className="relative btn-call">
             <span
                 className={cn(
                     "absolute animate-ping rounded-full opacity-75",
@@ -211,7 +211,7 @@ const Agent = ({
             </span>
                     </button>
                 ) : (
-                    <button className="btn-disconnect" onClick={() => handleDisconnect()}>
+                    <button className="btn-disconnect" >
                         End
                     </button>
                 )}
