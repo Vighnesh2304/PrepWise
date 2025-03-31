@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ccb5f77b-7070-4bc7-8dc3-0abfa8ec44c4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/interview-platform.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/interview/[id]/feedback/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/interview/[id]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/interview/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/vapi/generate/route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Agent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AuthForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DisplayTechIcons.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/FormField.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/InterviewCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/form.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/input.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/label.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/sonner.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/admin.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase/client.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/actions/auth.action.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/actions/general.action.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vapi.sdk.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ai-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/covers/adobe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/covers/amazon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/covers/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/covers/hostinger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/covers/pinterest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/covers/quora.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/covers/reddit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/covers/skype.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/covers/spotify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/covers/telegram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/covers/tiktok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/covers/yahoo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/profile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tailwind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tech.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/user-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/vapi.d.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2uvsBE3lyjA9aivoOA7ghaTPvA7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vighnesh/interview-platform&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/vighnesh/interview-platform/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/(root)/interview/[id]" />
+      <recent name="$PROJECT_DIR$/firebase" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ccb5f77b-7070-4bc7-8dc3-0abfa8ec44c4" name="Changes" comment="" />
+      <created>1743140246469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743140246469</updated>
+      <workItem from="1743140248419" duration="532000" />
+      <workItem from="1743140795176" duration="1540000" />
+      <workItem from="1743238018725" duration="6973000" />
+      <workItem from="1743317465512" duration="37000" />
+      <workItem from="1743317510358" duration="5724000" />
+      <workItem from="1743324940856" duration="1270000" />
+      <workItem from="1743326220678" duration="5908000" />
+      <workItem from="1743337181487" duration="4937000" />
+      <workItem from="1743343140872" duration="10458000" />
+      <workItem from="1743417859211" duration="4282000" />
+      <workItem from="1743428843173" duration="68000" />
+      <workItem from="1743428913263" duration="78000" />
+      <workItem from="1743429004638" duration="44000" />
+      <workItem from="1743429067122" duration="86000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
